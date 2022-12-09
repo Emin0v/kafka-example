@@ -3,7 +3,10 @@ server:
 
 com:
   kafka:
-    address: 192.168.99.100:9092
+    address: localhost:9092
     topic: kafka-topic1
     group:
       id: kafka-group
+
+topics:
+  dead-letter: dlt-topic
